@@ -351,8 +351,8 @@ struct rrd_t;
 #endif
 
 int       rrd_proc_start_end(
-    rrd_time_value_t *,
-    rrd_time_value_t *,
+    const rrd_time_value_t *,
+    const rrd_time_value_t *,
     time_t *,
     time_t *);
 

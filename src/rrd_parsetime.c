@@ -1018,8 +1018,8 @@ static char     *rrd_parsetime_nomt(
 
 
 int rrd_proc_start_end(
-    rrd_time_value_t * start_tv,
-    rrd_time_value_t * end_tv,
+    const rrd_time_value_t * start_tv,
+    const rrd_time_value_t * end_tv,
     time_t *start,
     time_t *end)
 {
