@@ -424,7 +424,7 @@ in seconds, C<ret_ds_num> the number of data sources in the RRD, C<ret_ds_names>
 the names of the data sources, and a pointer to an rrd_value_t object to shlep the
 data.
 
-=item B<rrdc_stats_get(rrd_client_t *client, rrdc_stats_t **ret_stats)>
+=item B<rrd_client_stats_get(rrd_client_t *client, rrdc_stats_t **ret_stats)>
 
 =item B<rrdc_stats_get(rrdc_stats_t **ret_stats)>
 
